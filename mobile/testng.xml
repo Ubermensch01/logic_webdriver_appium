@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login tests" verbose="1">
+    <test name="IOS">
+        <parameter name="device" value="ios"/>
+        <classes>
+            <class name="WebAppTest"/>
+        </classes>
+    </test>
+    <test name="Android">
+        <parameter name="device" value="android"/>
+        <classes>
+            <class name="WebAppTest"/>
+        </classes>
+    </test>
+</suite>
